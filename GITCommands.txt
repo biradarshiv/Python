@@ -1,0 +1,40 @@
+git clone https://github.com/biradarshiv/Java.git
+-- In UI create feature branch for each of the Jira Story
+-- Get the feature branch checked out here in the System
+git pull origin feature/JiraStory1234
+git checkout feature/JiraStory1234
+git status
+-- Make changes and check whether all files are available here
+git add --all
+git status
+git commit -m "Provide your comments here"
+git push origin feature/JiraStory1234
+-- Below three steps only in case of errors
+git config --global user.email 'shivakumar.biradar@company.com'
+git config --global user.name 'Biradar, Shivakumar'
+git commit --amend --reset-author
+:wq
+git status
+
+
+
+
+git clone https://github.com/biradarshiv/Java.git
+git clone https://github.com/biradarshiv/Python.git
+-- In UI create feature branch for each of the Jira Story
+-- Get the feature branch checked out here in the System
+git pull origin develop
+git checkout develop
+git status
+-- Make changes and check whether all files are available here
+git add --all
+git status
+git commit -m "Java Project code"
+git push origin develop
+-- Below three steps only in case of errors
+git config --global user.email 'biradar.shiv88@gmail.com'
+git config --global user.name 'biradarshiv'
+git commit --amend --reset-author
+:wq
+git status
+
